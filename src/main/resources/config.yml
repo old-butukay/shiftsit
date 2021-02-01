@@ -1,0 +1,12 @@
+# Chat messages sent to the player
+chat-msgs:
+  now-disabled: "SiftSit отключен"
+  now-enabled: "SiftSit включен"
+
+# Delay before holding shift will lead to 
+shift-delay: 15
+
+# Min player pitch needed for shiftsit 
+pitch:
+  sit: 10.0
+  lay: 70.0

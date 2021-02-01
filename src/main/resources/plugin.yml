@@ -1,0 +1,13 @@
+name: ShiftSit
+version: ${project.version}
+main: com.butukay.shiftsit.Shiftsit
+api-version: 1.16
+prefix: ssit
+depend: [ SimpleLay ]
+authors: [ Butukay ]
+description: Sit or lay using shift while jumping
+commands:
+  shiftsit:
+    description: Toggle shiftsit
+    usage: /shiftsit
+    permission: shiftsit.toggle
