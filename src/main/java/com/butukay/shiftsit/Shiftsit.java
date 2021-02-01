@@ -17,7 +17,7 @@ public final class Shiftsit extends JavaPlugin {
         this.getCommand("shiftsit").setExecutor(new ShiftsitCommand());
         getServer().getPluginManager().registerEvents(new EventHandlers(), this);
 
-        if (new File(this.getDataFolder(), "config.yml").exists()) {
+        if (!new File(this.getDataFolder(), "config.yml").exists()) {
             this.saveDefaultConfig();
         }
 
