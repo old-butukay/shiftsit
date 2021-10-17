@@ -9,11 +9,11 @@ import org.bukkit.event.player.PlayerMoveEvent;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 import org.bukkit.util.Vector;
-import ru.azerusteam.Classes.SirPlayer;
+import com.azerusteam.players.SirPlayer;
 
 public class EventHandlers implements Listener {
 
-    private final ru.azerusteam.sirmanager.Main sl = (ru.azerusteam.sirmanager.Main) Bukkit.getServer().getPluginManager().getPlugin("SimpleLay");
+    private final com.azerusteam.sirmanager.SimpleLay sl = (com.azerusteam.sirmanager.SimpleLay) Bukkit.getServer().getPluginManager().getPlugin("SimpleLay");
 
     @EventHandler
     public void onPlayerMove(PlayerMoveEvent e) {
